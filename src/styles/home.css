@@ -1,0 +1,65 @@
+body {
+    background-color: #535353;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #fff !important;
+}
+
+.card {
+    margin-bottom: 1.5rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+}
+
+
+.card-text {
+    margin-bottom: 0.5rem;
+}
+
+.footer {
+    background-color: #000000;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-outline-warning {
+    color: #ffc107;
+    border-color: #ffc107;
+}
+
+.btn-outline-warning:hover {
+    color: #fff;
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.card-custom {
+    width: 14rem;
+    background-color: #f8f9fa; /* Fondo claro para la tarjeta */
+    color: black; /* Texto negro */
+}
+
+.overflow-scroll-horizontal {
+    overflow-x: auto;
+    white-space: nowrap;
+}
