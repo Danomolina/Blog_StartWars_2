@@ -17,7 +17,7 @@ export const Navbar = ({ favoritos, borrar }) => {
 				<div className="btn-group">
 					<button
 						type="button"
-						className="btn btn-primary dropdown-toggle"
+						className="btn btn-dark dropdown-toggle"
 						data-bs-toggle="dropdown"
 						aria-expanded="false"
 					>

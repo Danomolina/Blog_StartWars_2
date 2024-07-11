@@ -47,7 +47,7 @@ export const Card = ({ addFav }) => {
                                 <p className="card-text">Hair Color: {element?.hair_color}</p>
                                 <p className="card-text">Eye Color: {element?.eye_color}</p>
                                 <div className="d-flex justify-content-between">
-                                    <Link to={`/detalles/${key + 1}`} className="btn btn-primary">Learn More!</Link>
+                                    <Link to={`/detalles/${key + 1}`} className="btn btn-dark">Learn More!</Link>
                                     <button
                                         type="button"
                                         onClick={() => addFav(element.name)}
@@ -77,7 +77,7 @@ export const Card = ({ addFav }) => {
                                 <p className="card-text">Population: {element?.population}</p>
                                 <p className="card-text">Terrain: {element?.terrain}</p>
                                 <div className="d-flex justify-content-between">
-                                    <Link to={`/planet/${key + 1}`} className="btn btn-primary">Learn More!</Link>
+                                    <Link to={`/planet/${key + 1}`} className="btn btn-dark">Learn More!</Link>
                                     <button
                                         type="button"
                                         onClick={() => addFav(element.name)}
